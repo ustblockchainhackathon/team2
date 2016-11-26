@@ -1,0 +1,9 @@
+---
+applications:
+- name: Thinknova
+  instances: 1
+  memory: 512M
+  host: Thinknova
+  domain: mybluemix.net
+  path: .
+  command: node app.js

@@ -1,7 +1,21 @@
+# Node.js Starter Overview
+
+The Node.js Starter demonstrates a simple, reusable Node.js web application based on the Express framework.
+
+## Run the app locally
+
+1. [Install Node.js][]
+2. Download and extract the starter code from the Bluemix UI
+3. cd into the app directory
+4. Run `npm install` to install the app's dependencies
+5. Run `npm start` to start the app
+6. Access the running app in a browser at http://localhost:6001
+
+[Install Node.js]: https://nodejs.org/en/download/
+
 # team2
 
-```
-"hackathon_developer_002": {
+  "hackathon_developer_002": {
     "address": "DAE18A9C7D286C10D6A2FD7CE2AC5D0FA54BCCD2",
     "pubKey": "43615F24EF25780091C5E7AF70CC13E394FDD85D2E282463C5E9765C3201B623",
     "privKey": "BF0BCE8DC9821968EDEB76C1F4DAB122281BFA43DED00F2927591BD3397DA08543615F24EF25780091C5E7AF70CC13E394FDD85D2E282463C5E9765C3201B623"
@@ -22,6 +36,6 @@
     "privKey": "B50063C616C6E7F9E8D0A7BD7E8540BD82A144B60987E36D211BA8528D00455981BA80DC9A8C76AB3573F86BC9493270F0C9D65A240BAF6DB037FAD2B32C8C38"
   },
 
-node = "http://134.168.63.69:1337/rpc"
+  node = "http://134.168.63.69:1337/rpc"
 
-compiler = "http://134.168.56.175:9099"
+  compiler = "http://134.168.56.175:9099"
